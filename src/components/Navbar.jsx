@@ -32,7 +32,10 @@ const Navbar = () => {
             <li className="p-2 border-b border-gray-300">Discover</li>
             <li className="p-2 border-b border-gray-300">Home</li>
             <li className="p-2 border-b border-gray-300">Investor</li>
-            <li className="p-2 border-b border-gray-300">About Us</li>
+            <li className="p-2 border-b border-gray-300">
+              {" "}
+              <a href="">About Us</a>{" "}
+            </li>
             <li className="p-2 ">Donations</li>
           </ul>
         </div>
